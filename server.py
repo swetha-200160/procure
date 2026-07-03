@@ -30,6 +30,7 @@ app = FastAPI(
     title="Procurement AI Service",
     description="RFQ evaluation and vendor scoring API",
     version="1.0.0",
+    root_path="/procurement",
     docs_url="/docs",
     redoc_url="/redoc",
 )
