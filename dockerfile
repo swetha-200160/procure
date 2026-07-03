@@ -9,7 +9,7 @@ ARG ROOT_PATH=/procurement
 ARG NEED_FFMPEG=false
 ARG NEED_OCR=false
 ARG NEED_AI_LIBS=false
-ARG ENTRY_FILE=main.py
+ARG ENTRY_FILE=server.py
 
 # ---------- Copy project folder ----------
 COPY ${PROJECT_NAME} /app
