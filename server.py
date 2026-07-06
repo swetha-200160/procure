@@ -26,10 +26,10 @@ _spec.loader.exec_module(_mod)
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from fastapi import FastAPI
+
 app = FastAPI(
-    title="Procurement AI Service",
-    docs_url="/docs",
-    redoc_url="/redoc"
+    root_path="/procurement"
 )
 
 
