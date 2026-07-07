@@ -50,3 +50,4 @@ if __name__ == "__main__":
     print("Swagger UI : http://localhost:8001/docs")
     print("=" * 60)
     uvicorn.run("server:app", host="0.0.0.0", port=8001, reload=True)
+ 
